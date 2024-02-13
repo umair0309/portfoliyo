@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	position: relative;
+	overflow: hidden;
+}
+.page1{
+		width: 100%;
+		height:100vh;
+		background:#FFFFFF;
+
+}
+.page1 footer{
+	width: 100%;
+	height:50px;
+	padding-top:60px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.page1 .logo img{
+	cursor: pointer;
+	border-radius: 120px;
+	margin-top: 10px;
+	width:60%;
+	height:200px;
+	margin-left:70%;
+}
+.page1 .skills{
+	display:flex;			
+	font-family:"Montserrat Medium"
+}
+.page1 .skills li{
+	list-style: none;
+	margin-left: 10px;
+	font-size:21px;
+	border-radius:140px;
+	padding:10px 17px;
+}
+.page1 .skills li:hover{
+	background:rgba(23, 10, 40,.1);
+	cursor: pointer;
+}
+.page1 .middlepart{
+	display: flex;
+	margin-top:10%;
+	width: 100%;
+}
+	
+.middlepart .leftpart{
+	width:50%;
+	margin-left:8%;
+	position: relative;
+}
+.middlepart .leftpart h2{
+	font-size:3.4vw;
+	font-weight:500;
+	margin-bottom:5%;
+	font-family:"Montserrat Alternates SemiBold";
+}
+.middlepart .leftpart p{
+	font-size:20px;
+	font-family:"Montserrat SemiBold";
+	width:60%;
+	text-align:justify;
+}
+.middlepart .rightpart{
+	
+	position: relative;
+}
+.page1 .middlepart img{
+	width:100%;
+	height:80vh;
+	margin-top:-20%;
+	border: none;
+	margin-left: -39px;
+	border-radius:30px;
+}
+.links{
+
+	width:45%;
+	margin-top: -14%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:40px;
+}
+.links span{
+	font-size:7vh;
+
+}
+.links span i{
+	color:rgba(233, 30, 10, .6);
+	border:.5px solid blue;
+	border-radius: 50%;
+	padding:10px 10px;
+	}
+.links span:hover{
+	color:rgba(50, 230, 10, 1.0);
+}
+
+.page1 .page1-btn{
+	margin-top:3%;
+	width:35%;
+	margin-left:7%;
+	display: flex;
+	align-items: center;
+}
+.page1 .page1-btn button{
+	width:45%;
+	margin-left:10px;
+	height:50px;
+	color:#fff;
+ font-family:"Montserrat Alternates ExtraBold";	
+	text-transform: uppercase;
+	font-size:21px;
+	border-radius:25px;
+	border: none;
+	background: rgba(10, 20, 150,.5);
+}
+.page2{
+		width: 100%;
+		height:90vh;
+		position: relative;
+		justify-content: space-between;
+}
+.page2 .two-side{
+	display: flex;
+	width: 100%;
+}
+.page2 .left-side{
+	width: 50%;
+}
+.page2 .left-side img{
+	width:100%;
+	margin-top:-15%;
+}
+
+.page2 .right-side{
+	width:50%;
+	margin-left: 4%;
+	margin-top:4%;
+}
+.page2 .right-side h1{
+	font-size:10vh;
+	margin-bottom:3%;
+	font-family:"Montserrat Alternates";
+}
+.page2 .right-side h5{
+	font-size:4vh;
+	font-family:"Montserrat Alternates Medium";
+	letter-spacing:1.5px;
+	margin-bottom:5%;
+}
+.page2 .right-side .language span{
+	margin: 10px;
+}
+.page2 .right-side .language span i:hover{
+	background:rgba(223, 10,20,.2);
+}
+.page2 .right-side .language span i{
+	font-size:12vh;
+	color: #2c3d9f;
+	cursor: pointer;
+	padding:10px;
+	border-radius:50%;
+}
+.page2 .right-side h3{
+	font-size:32px;
+	font-weight:500;
+	font-family:"Source Sans Pro";
+	margin-top:15px;
+}
+.page2 .right-side h3 i{
+	color: goldenrod;
+}
+.page3{
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-content: center;
+		justify-content: space-between;
+}
+.page3 .left-section{
+	margin-left:8%;
+	width: 50%;
+	margin-left:14%;
+	}
+.page3 .left-section h1{
+	margin-top: 10px;
+	margin-bottom: 5%;
+	font-size:10vh;
+	width: 48%;
+	border-bottom: 5px solid pink;
+	font-family: "Source Sans Pro Semibold";
+}
+.page3 .left-section h3{
+	margin-top:10%;
+	margin-bottom:1%;
+	font-size:6vh;
+	font-family:"Roboto Condensed";
+}	
+.page3 .left-section i{
+	color:gold;
+	font-size: 30px;
+}
+
+
+.page3 .right-section{
+	width:50%;
+	margin-right:10%;
+}
+.page3 img{
+	width:100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
